@@ -1,4 +1,4 @@
-// src/components/Search.js
+import './Search.css';
 import React, { useState } from "react";
 import axios from "axios";
 
@@ -12,7 +12,7 @@ const Search = () => {
 
   const handleSearch = () => {
     if (keyword) {
-      // Call the YouTube API to get search results
+  
       axios
         .get(
           `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=${keyword}&type=video&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`
@@ -27,7 +27,7 @@ const Search = () => {
   };
 
   return (
-    <div>
+    <div className='search-box'>
       <input
         type="text"
         value={keyword}
@@ -36,10 +36,10 @@ const Search = () => {
       />
       <button onClick={handleSearch}>Search</button>
 
-      <ul>
+      <ul className='search-list'>
         {searchResults.map((item) => (
           <li key={item.id.videoId}>
-            <a
+            <a className='search-link'
               href={`https://www.youtube.com/watch?v=${item.id.videoId}`}
               target="_blank"
               rel="noopener noreferrer"

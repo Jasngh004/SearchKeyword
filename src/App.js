@@ -1,12 +1,15 @@
 
 import React from "react";
 import Search from "./components/Search";
+import './App.css';
+
 
 function App() {
   return (
-    <div>
-      <h1>YouTube Keyword Search Volume</h1>
+    <div className="box">
+      <h1 className="box-head">YouTube Keyword Search Volume</h1>
       <Search />
+      <h5 className="box-end">Intern Task-Jatin Singh </h5>
     </div>
   );
 }

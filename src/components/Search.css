@@ -1,0 +1,20 @@
+.search-box{
+ text-align: center;
+}
+
+.search-list{
+    color: white;
+   
+    text-align: start;
+}
+.search-link{
+    color: white;
+    text-decoration: none;
+    text-align: start;
+
+
+}
+.search-link:hover{
+    color: black;
+   
+}

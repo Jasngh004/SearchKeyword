@@ -1,3 +1,25 @@
+/* customise styling*/
+.box{
+  background-color: red;
+  height: 46rem;
+}
+.box-head{
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 60px;
+}
+
+
+.box-end{
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+
+/* built styling*/
 .App {
   text-align: center;
 }

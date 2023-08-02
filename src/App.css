@@ -5,16 +5,18 @@
 }
 .box-head{
   color: white;
-  text-align: center;
+  padding-left: 30px;
   margin-top: 0px;
   padding-top: 60px;
 }
 
-
+.search-box{
+  padding: 30px;
+}
 .box-end{
   color: white;
-  text-align: center;
-  padding-top: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
 }
 
 

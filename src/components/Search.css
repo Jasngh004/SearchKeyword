@@ -1,20 +1,9 @@
-.search-box{
- text-align: center;
-}
-
-.search-list{
+.result{
+    font-size: 1rem;
     color: white;
-   
-    text-align: start;
 }
-.search-link{
+
+.count{
+    font-size: 1rem;
     color: white;
-    text-decoration: none;
-    text-align: start;
-
-
-}
-.search-link:hover{
-    color: black;
-   
 }

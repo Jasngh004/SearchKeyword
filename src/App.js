@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="box">
       <h1 className="box-head">YouTube Keyword Search Volume</h1>
-      <Search />
+      <div className="search-box">
+        <Search/>
+      </div>
       <h5 className="box-end">Intern Task-Jatin Singh </h5>
     </div>
   );
